@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHH.Service.Interface", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHH.Helper", "KHH.Helper\KHH.Helper.csproj", "{D3967C99-42EE-49CA-97FC-A5BD0977A193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHH.Entities", "KHH.Entities\KHH.Entities.csproj", "{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D3967C99-42EE-49CA-97FC-A5BD0977A193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3967C99-42EE-49CA-97FC-A5BD0977A193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3967C99-42EE-49CA-97FC-A5BD0977A193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
