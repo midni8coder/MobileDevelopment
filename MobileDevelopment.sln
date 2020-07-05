@@ -15,6 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHH.Helper", "KHH.Helper\KH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHH.Entities", "KHH.Entities\KHH.Entities.csproj", "{52C063A9-3B4E-4BA9-9FAB-86C9FFFA7BE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{A2B1A6C8-373F-48C5-970F-8F4C5CD3EC1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GuestApp", "GuestApp", "{A0AE16C2-9AF3-4620-9E42-3A0C1CAB22EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{7B4379FB-1914-43FF-8397-536F094119CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedures", "StoredProcedures", "{75EDC72B-FE71-4992-B78F-3523A01C5D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{FAC7622A-87DC-48A9-B2DF-EFCB0646768A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +58,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0AE16C2-9AF3-4620-9E42-3A0C1CAB22EA} = {A2B1A6C8-373F-48C5-970F-8F4C5CD3EC1F}
+		{7B4379FB-1914-43FF-8397-536F094119CF} = {A0AE16C2-9AF3-4620-9E42-3A0C1CAB22EA}
+		{75EDC72B-FE71-4992-B78F-3523A01C5D66} = {A0AE16C2-9AF3-4620-9E42-3A0C1CAB22EA}
+		{FAC7622A-87DC-48A9-B2DF-EFCB0646768A} = {A0AE16C2-9AF3-4620-9E42-3A0C1CAB22EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4D890E5-E264-4C96-9FFA-EE504F2B9ED9}

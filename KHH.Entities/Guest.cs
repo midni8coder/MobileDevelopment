@@ -12,7 +12,10 @@ namespace KHH.Entities
         public string Mobile { get; set; }
         public string AlternateMobile { get; set; }
         public string HomeAddress { get; set; }
+        public string OfficeAddress { get; set; }
+        public string OfficeContactNumber { get; set; }
         public string HomeCity { get; set; }
         public int HomePinCode { get; set; }
+        public string AadharNumber { get; set; }
     }
 }
